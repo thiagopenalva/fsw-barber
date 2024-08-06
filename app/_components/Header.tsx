@@ -3,7 +3,7 @@ import { Card, CardContent } from "./ui/card"
 import { Button } from "./ui/button"
 import { MenuIcon } from "lucide-react"
 
-const Header = () => {
+const Header = async () => {
   return (
     <div>
       <Card>
