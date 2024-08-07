@@ -1,12 +1,12 @@
 import { BarbershopService } from "@prisma/client"
 import Image from "next/image"
-import { Button } from "./button"
-import { Card, CardContent } from "./card"
+import { Button } from "./ui/button"
+import { Card, CardContent } from "./ui/card"
 
 interface ServiceItemProps {
   service: BarbershopService
 }
-const ServiceItem = ({ service }): ServiceItemProps => {
+const ServiceItem = ({ service }: ServiceItemProps) => {
   return (
     <Card>
       <CardContent className="flex items-center gap-3 p-3">
