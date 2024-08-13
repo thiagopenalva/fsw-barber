@@ -1,4 +1,3 @@
-import Header from "./_components/header"
 import { Button } from "./_components/ui/button"
 import Image from "next/image"
 import { db } from "./_lib/prisma"
@@ -11,6 +10,7 @@ import { getServerSession } from "next-auth"
 import { authOptions } from "./_lib/auth"
 import { format } from "date-fns"
 import { ptBR } from "date-fns/locale"
+import Header from "./_components/header"
 
 const Home = async () => {
   const session = await getServerSession(authOptions)
