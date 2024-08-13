@@ -1,6 +1,5 @@
 import BarbershopItem from "../_components/barbershop-item"
 import Header from "../_components/header"
-
 import Search from "../_components/search"
 import { db } from "../_lib/prisma"
 
